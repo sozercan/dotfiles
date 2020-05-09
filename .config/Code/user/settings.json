@@ -1,0 +1,96 @@
+{
+    "window.zoomLevel": 0,
+    "editor.mouseWheelZoom": false,
+    "editor.wordWrap": "bounded",
+    "editor.wordWrapColumn": 120,
+    "files.trimTrailingWhitespace": true,
+    "files.encoding": "utf8",
+    // "files.defaultLanguage": "markdown",
+    "telemetry.enableCrashReporter": false,
+    "telemetry.enableTelemetry": false,
+    "gitlens.advanced.telemetry.enabled": false,
+    "editor.fontSize": 16,
+    "editor.fontLigatures": true,
+    "editor.fontFamily": "MesloLGS NF",
+    "go.lintTool": "golangci-lint",
+    "go.lintFlags": [
+        "--fast"
+    ],
+    "go.useLanguageServer": true,
+    "[go]": {
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        },
+        // Optional: Disable snippets, as they conflict with completion ranking.
+        "editor.snippetSuggestions": "none"
+    },
+    "[go.mod]": {
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        }
+    },
+    "gopls": {
+        // Add parameter placeholders when completing a function.
+        "usePlaceholders": true,
+        // If true, enable additional analyses with staticcheck.
+        // Warning: This will significantly increase memory usage.
+        "staticcheck": false
+    },
+    "go.buildOnSave": "package",
+    "go.vetOnSave": "package",
+    "go.lintOnSave": "package",
+    "go.testFlags": [
+        "-count=1"
+    ],
+    "go.autocompleteUnimportedPackages": true,
+    "window.openFilesInNewWindow": "default",
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.editor.titleScrollbarSizing": "large",
+    "editor.autoIndent": "full",
+    "editor.renderControlCharacters": false,
+    "editor.renderWhitespace": "all",
+    "terminal.integrated.fontFamily": "Delugia Nerd Font",
+    "terminal.integrated.fontSize": 15,
+    "python.linting.pep8Enabled": false,
+    "files.associations": {
+        "*.go": "go",
+        "*.yaml": "yaml"
+    },
+    "gitlens.showWhatsNewAfterUpgrades": false,
+    "gitlens.advanced.messages": {
+        "suppressCommitHasNoPreviousCommitWarning": false,
+        "suppressCommitNotFoundWarning": false,
+        "suppressFileNotUnderSourceControlWarning": false,
+        "suppressGitVersionWarning": false,
+        "suppressLineUncommittedWarning": false,
+        "suppressNoRepositoryWarning": false,
+        "suppressResultsExplorerNotice": false,
+        "suppressShowKeyBindingsNotice": true,
+        "suppressUpdateNotice": true,
+        "suppressWelcomeNotice": false
+    },
+    "workbench.activityBar.visible": true,
+    "vsdocker.imageUser": "docker.io/sozercan",
+    "workbench.statusBar.feedback.visible": false,
+    "git.autofetch": true,
+    "gitlens.keymap": "chorded",
+    "editor.minimap.enabled": true,
+    "files.autoSave": "afterDelay",
+    "explorer.confirmDragAndDrop": false,
+    "gitlens.views.fileHistory.enabled": true,
+    "gitlens.views.lineHistory.enabled": true,
+    "editor.formatOnSave": true,
+    "editor.largeFileOptimizations": false,
+    "breadcrumbs.enabled": true,
+    "workbench.colorTheme": "Cameo Dark (Visual Studio)",
+    "terminal.integrated.shell.osx": "/bin/zsh",
+    "go.formatTool": "goimports",
+    "[yaml]": {
+        "editor.defaultFormatter": "redhat.vscode-yaml"
+    },
+    "[dockerfile]": {
+        "editor.defaultFormatter": "ms-azuretools.vscode-docker"
+    }
+}

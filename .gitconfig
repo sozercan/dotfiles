@@ -1,0 +1,5 @@
+[core]
+	autocrlf = input
+[user]
+	email = sozercan@gmail.com
+	name = Sertac Ozercan
