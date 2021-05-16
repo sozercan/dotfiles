@@ -51,7 +51,7 @@
     "editor.autoIndent": "full",
     "editor.renderControlCharacters": false,
     "editor.renderWhitespace": "all",
-    "terminal.integrated.fontFamily": "Delugia Nerd Font",
+    "terminal.integrated.fontFamily": "MesloLGS NF",
     "terminal.integrated.fontSize": 15,
     "python.linting.pep8Enabled": false,
     "files.associations": {
